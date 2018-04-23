@@ -1,0 +1,9 @@
+[package]
+name = "rustymos-kernel"
+version = "0.1.0"
+authors = ["zelinf <fengzlin@mail2.sysu.edu.cn>"]
+
+[lib]
+path = "src/lib.rs"
+
+[dependencies]
