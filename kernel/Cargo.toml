@@ -3,7 +3,13 @@ name = "rustymos-kernel"
 version = "0.1.0"
 authors = ["zelinf <fengzlin@mail2.sysu.edu.cn>"]
 
-[lib]
-path = "src/lib.rs"
+build = "build.rs"
+
+[build-dependencies]
+nasm-rs = "0.1.3"
+
+[[bin]]
+name = "rustymos_kernel"
+path = "src/main.rs"
 
 [dependencies]

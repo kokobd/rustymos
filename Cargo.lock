@@ -1,4 +1,14 @@
 [[package]]
+name = "nasm-rs"
+version = "0.1.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
 name = "rustymos-kernel"
 version = "0.1.0"
+dependencies = [
+ "nasm-rs 0.1.3 (registry+https://github.com/rust-lang/crates.io-index)",
+]
 
+[metadata]
+"checksum nasm-rs 0.1.3 (registry+https://github.com/rust-lang/crates.io-index)" = "050b2ce3f43a1b40dbf91b1e747924cb38ee6d24d6807704137f40c89798c688"
